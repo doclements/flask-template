@@ -1,0 +1,35 @@
+from flask import Blueprint, render_template, request, make_response
+
+main = Blueprint('main', __name__)
+from pySOS import db
+from pySOS.models import Cached_WCPS
+from pySOS import mime_types
+from pySOS import app
+from flask import  g
+from pySOS import config
+
+
+
+
+def index():
+    return render_template('index.html')
+
+def login():
+    pass
+
+def logout():
+    pass
+
+def getcaps():
+    '''this method show the use of make_response to craft a return that has a custom 
+    content-type, in this case text/xml'''
+    
+    title = 'test SOS server title'
+    res_dict = {}
+    res_dict['title'] = title
+    res_dict['config'] = config
+    response =  make_response(render_template('xml/GetCapabilities.xml', **res_dict))
+    response.headers['Content-Type'] = 'text/xml'
+    return response
+
+

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/84/pysos/dev/pySOS/templates
+END
+macros.html
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/72/pysos/dev/pySOS/templates/macros.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/75/pysos/dev/pySOS/templates/index.html
+END
+base.html
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/72/pysos/dev/pySOS/templates/base.html
+END
+test_ds_add.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/82/pysos/dev/pySOS/templates/test_ds_add.html
+END

@@ -1,0 +1,5 @@
+{% extends 'base.html' %}
+{% block body %}
+          <p>{{ ds_id}}</p>
+          
+{% endblock %}

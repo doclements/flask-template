@@ -1,0 +1,6 @@
+service-information:
+  abstract: new abstract added to file again
+  access_const: NONE
+  fees: NONE
+  keywords: [Oceans, Remote Sensing, Earth Observation, Chlorophyll]
+  title: A test SOS server
