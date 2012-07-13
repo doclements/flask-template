@@ -19,8 +19,9 @@ f_handler.setFormatter(logging.Formatter(
 app.logger.addHandler(f_handler)
 
 import yaml 
+import os
 
-config = yaml.load(open('/home/olly/flasktemplate/template_app/config.yaml' , 'r'))
+config = yaml.load(open('%s/template_app/config.yaml' % os.getcwd() , 'r'))
 
 # setup database
 db = SQLAlchemy(app)
