@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from flaskext.script import Command, Manager
+from flask_script import Command, Manager
 
 from template_app import app
 
